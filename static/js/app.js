@@ -51,7 +51,7 @@ function Charts(sample) {
     console.log(sampleValues);
     console.log(sampleId);
     
-    var yValues = sampleId.map(d => `ID :${d}`);
+    var yValues = sampleId.map(d => `OTU: ${d} `);
     var trace1 = [{
     x: sampleValues,
     y: yValues,
